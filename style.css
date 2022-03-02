@@ -1,0 +1,121 @@
+.wrapper1 {
+    display: grid;
+    width: 100%;
+    height: 13em;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+    background-color: rgb(2, 2, 199);
+}
+#displaybox {
+    /* display: inline-block; */
+    height: 170px;
+    width: 700px;
+    border: 7px solid black;
+    padding: .5em;
+    background-color: white;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+.wrapper2 {
+    display: grid;
+    background-image: url("images/Jeopardy-background.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 875px;
+}
+
+.wrapper2 .categories {
+    display: grid;
+    height: 80px;
+    grid-template-columns: repeat(5, 170px);
+    grid-template-rows: 50px;
+    /* background-color: black; */
+    gap: 1em ;
+    padding: 1em;
+    margin: 0 auto;
+}
+.wrapper2 #catpick{
+    display: grid;
+    grid-template-columns: repeat(5, 170px);
+    grid-template-rows: repeat(5, 140px);
+    /* background-color: black; */
+    gap: 1em;
+    padding: 1em;
+    margin: 0 auto;
+}
+.amount {
+    height: 80px;
+    width: 120px;
+    padding: 1em;
+    border: 7px solid red;
+    font-size: 26px;
+    background-color: rgb(29, 29, 100);
+    color: yellow;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.secrow {
+    height: 35px;
+    width: 120px;
+    padding: 1em;
+    border: 7px solid red;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+.wrapper3 {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 150px;
+    /* width: 100%; */
+    margin: auto;
+    background-color: black;
+}
+#finalquestion {
+  background-color:rgb(29, 29, 100);
+  height: 125px;
+  width: 850px;
+  margin: left;
+  border: 7px solid red;
+  color: yellow;
+
+}
+body {
+    /* background-color: red; */
+    height: 1500px;
+}
+.wrapper4 {
+    padding: 1em;
+    display: grid;
+    width: 930px;
+    height: 250px;
+    background: black;
+    margin: auto;
+}
+.wrapper4  #scoredisplay {
+width: 350px;
+height: 150px;
+border: 7px solid red;
+margin: auto;
+background: white;
+font-size: 75px;
+font-weight: 800;
+}
+.scoreDisplay {
+  margin-top: 2em;
+}
+header h1 {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 75px;
+}
+.pressed {
+  opacity: 0.5;
+  color: grey;
+  background-color: grey;
+}
